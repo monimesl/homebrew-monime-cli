@@ -11,7 +11,7 @@ class Monime < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/monimesl/monime-cli/releases/download/v1.0.0/monime_1.0.0_mac-os_x86_64.tar.gz"
-    sha256 "b8e3bdfc56b87cfe570d2210fc4e1fc9a4257e914ff2b5d380c5faa76c1b7fce"
+    sha256 "a8506983c69a79709bbb0c346dd9f65a1de7b104003c7d4f30cc8081a290ef63"
 
     def install
       bin.install "monime"
@@ -19,7 +19,7 @@ class Monime < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/monimesl/monime-cli/releases/download/v1.0.0/monime_1.0.0_mac-os_arm64.tar.gz"
-    sha256 "8528262983cdce27d9ba3440d060c2081c1f1604a0afcc5c2fd3af9e3288fba0"
+    sha256 "ee44741d027d089941e00cb2fd50348c7662c858053c569e6e62cacdd3c96a5c"
 
     def install
       bin.install "monime"
