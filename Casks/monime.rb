@@ -13,11 +13,11 @@ cask "monime" do
   on_macos do
     on_intel do
       url "https://github.com/monimesl/monime-cli/releases/download/v1.0.0/monime_1.0.0_mac-os_x86_64.tar.gz"
-      sha256 "17277e3d76f92b5068271a0f40c58431d274fe4b8df48883419536875c3c977a"
+      sha256 "d99f6a206fb36775d4e180978a703eec9abbbf4616cd5f745c8e9cbd575e0637"
     end
     on_arm do
       url "https://github.com/monimesl/monime-cli/releases/download/v1.0.0/monime_1.0.0_mac-os_arm64.tar.gz"
-      sha256 "d2bb2b93a8e0864076d1e9fb9ad9a17bd333993976916dc35b9a06640cda58f3"
+      sha256 "6317340e90faab40521273a2caae2326334766a447c4423fcfe168bdb7bb1320"
     end
   end
 
