@@ -1,6 +1,6 @@
 cask "monime-715" do
   version "1.0.0"
-  sha256 "503cb65c1e2d956ee673f9d5a9f4a821e1846a574743c9cbbf36f7b55a7ae2a4"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
   url "https://github.com/monimesl/monime-cli/releases/download/v1.0.0/Monime_715_macOS.zip"
   name "Monime 715"
