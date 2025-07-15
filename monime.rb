@@ -5,21 +5,21 @@
 class Monime < Formula
   desc ""
   homepage "https://monime.io"
-  version "1.0.1"
+  version "1.0.2"
   license "Apache 2.0"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/monimesl/monime-cli/releases/download/v1.0.1/monime_1.0.1_mac-os_x86_64.tar.gz"
-    sha256 "68822468e6a9bff33acc362c332c93ab3f48026a31d4b7a60e1f88364c9f2efb"
+    url "https://github.com/monimesl/monime-cli/releases/download/v1.0.2/monime_1.0.2_mac-os_x86_64.tar.gz"
+    sha256 "c6c9a0e47784abd9d7545a907f2826977a24581e221dd92684df44d1076414e0"
 
     def install
       bin.install "monime"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/monimesl/monime-cli/releases/download/v1.0.1/monime_1.0.1_mac-os_arm64.tar.gz"
-    sha256 "b4dbe0fc7f640e19fff6ea80a9a9617acfda2070a89e17e6fa728d708807d73a"
+    url "https://github.com/monimesl/monime-cli/releases/download/v1.0.2/monime_1.0.2_mac-os_arm64.tar.gz"
+    sha256 "220f3c6116088ac11b1ed27dc0f9c7ce4860f5afebf006e1fcf5125e212ab06d"
 
     def install
       bin.install "monime"
